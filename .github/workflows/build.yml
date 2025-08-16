@@ -8,3 +8,4 @@ jobs:
     steps:
       - name: Run tests
         run: mvn clean test
+        working-directory: .
