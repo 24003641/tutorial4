@@ -1,4 +1,5 @@
 # Run tests
+shell: bash
 name: Run tests
 run: mvn clean test
 
