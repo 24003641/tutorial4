@@ -1,6 +1,6 @@
 name: Run tests
 
-on: [event trigger]
+on: push
 
 jobs:
   test-job:
