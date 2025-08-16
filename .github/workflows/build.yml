@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run: ls -a && mvn clean test
+        run: ls -a && cd ../ && ls -a && cd ../ && ls -a && mvn clean test
         working-directory: .
