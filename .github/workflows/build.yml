@@ -1,2 +1,1 @@
-name: Run tests
-run: mvn clean test
+mvn clean test 
